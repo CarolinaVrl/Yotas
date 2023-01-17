@@ -18,7 +18,8 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App" >
+      <h1>Hola Yotas uwur</h1>
       <div>
         <input type="text" value={word} onChange={e => setWord(e.target.value)} />
         <button onClick={() => { search() }}>Search</button>
